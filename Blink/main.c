@@ -3,7 +3,9 @@
 
 void clock_init(void)
 {
-  CLK_ICKR_bit.HSIEN = 1;
+  CLK_ICKR_bit.HSIEN = 1; // hsi rc enable
+  while(CLK_ICKR_bit.HSIRDY == 0);
+  
 }
 
 
