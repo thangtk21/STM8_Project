@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\Blink\Blink.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\Timer\Timer.ewp</path>
+    </project>
     <batchBuild />
 </workspace>
