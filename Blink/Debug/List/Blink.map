@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     11/Oct/2020  16:40:12
+# IAR ELF Linker V3.11.1.207 for STM8                     25/Oct/2020  22:50:25
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Users\Minh Thang\Desktop\STM8_Projects\Blink\Debug\List\Blink.map
 #    Command line =  
-#        -f C:\Users\MINHTH~1\AppData\Local\Temp\EW6FEB.tmp ("C:\Users\Minh
+#        -f C:\Users\MINHTH~1\AppData\Local\Temp\EWE8E0.tmp ("C:\Users\Minh
 #        Thang\Desktop\STM8_Projects\Blink\Debug\Obj\main.o" --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --no_out_extension -o "C:\Users\Minh

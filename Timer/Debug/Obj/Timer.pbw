@@ -52298,13 +52298,41 @@
     "scope": null
   },
   {
+    "ID": "c:@dosang",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "dosang",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\Minh Thang\\Desktop\\STM8_Projects\\Timer\\main.c"
+    },
+    "name": "dosang",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED4_Sang_dan",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED4_Sang_dan(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\Users\\Minh Thang\\Desktop\\STM8_Projects\\Timer\\main.c"
+    },
+    "name": "LED4_Sang_dan",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@gpio_init",
     "What": "Function",
     "defdec": "Def",
     "display": "void gpio_init(void)",
     "location": {
       "column": "6",
-      "line": "6",
+      "line": "13",
       "path": "C:\\Users\\Minh Thang\\Desktop\\STM8_Projects\\Timer\\main.c"
     },
     "name": "gpio_init",
@@ -52318,7 +52346,7 @@
     "display": "void clock_init(void)",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "18",
       "path": "C:\\Users\\Minh Thang\\Desktop\\STM8_Projects\\Timer\\main.c"
     },
     "name": "clock_init",
@@ -52332,7 +52360,7 @@
     "display": "void timer_init(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "23",
       "path": "C:\\Users\\Minh Thang\\Desktop\\STM8_Projects\\Timer\\main.c"
     },
     "name": "timer_init",
@@ -52346,7 +52374,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "25",
+      "line": "32",
       "path": "C:\\Users\\Minh Thang\\Desktop\\STM8_Projects\\Timer\\main.c"
     },
     "name": "main",
@@ -52360,7 +52388,7 @@
     "display": "void tim2_handle(void)",
     "location": {
       "column": "18",
-      "line": "40",
+      "line": "48",
       "path": "C:\\Users\\Minh Thang\\Desktop\\STM8_Projects\\Timer\\main.c"
     },
     "name": "tim2_handle",
@@ -52368,13 +52396,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@743@F@tim2_handle@count",
+    "ID": "c:main.c@819@F@tim2_handle@count",
     "What": "Variable",
     "defdec": "Def",
     "display": "count",
     "location": {
       "column": "18",
-      "line": "42",
+      "line": "50",
       "path": "C:\\Users\\Minh Thang\\Desktop\\STM8_Projects\\Timer\\main.c"
     },
     "name": "count",

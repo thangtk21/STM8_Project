@@ -31,6 +31,7 @@ void timer_init()
 }
 int main( void )
 {
+  dosang[0] = 10;
   clock_init();
   __disable_interrupt();
   timer_init();

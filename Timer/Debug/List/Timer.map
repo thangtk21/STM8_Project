@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     12/Oct/2020  00:51:49
+# IAR ELF Linker V3.11.1.207 for STM8                     25/Oct/2020  22:44:09
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Users\Minh Thang\Desktop\STM8_Projects\Timer\Debug\List\Timer.map
 #    Command line =  
-#        -f C:\Users\MINHTH~1\AppData\Local\Temp\EW87E7.tmp ("C:\Users\Minh
+#        -f C:\Users\MINHTH~1\AppData\Local\Temp\EW2CDB.tmp ("C:\Users\Minh
 #        Thang\Desktop\STM8_Projects\Timer\Debug\Obj\main.o" --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --no_out_extension -o "C:\Users\Minh
@@ -110,9 +110,10 @@ No sections matched the following patterns:
   .vregs           uninit   0x000000    0xc  vregs.o [4]
                           - 0x00000c    0xc
 
-"P2":                                   0x1
-  .near.bss        zero     0x00000c    0x1  main.o [1]
-                          - 0x00000d    0x1
+"P2":                                  0x11
+  .near.bss        zero     0x00000c   0x10  main.o [1]
+  .near.bss        zero     0x00001c    0x1  main.o [1]
+                          - 0x00001d   0x11
 
 "A1":                                 0x100
   CSTACK                    0x000700  0x100  <Block>
@@ -149,25 +150,25 @@ Absolute sections, part 5 of 5:         0x3
     .intvec        const    0x008000   0x80  interrupt.o [4]
                           - 0x008080   0x80
 
-"P3-P5":                               0xe4
-  .near_func.text  ro code  0x008080   0x25  main.o [1]
-  .iar.init_table  const    0x0080a5    0x8  - Linker created -
-  .near_func.text  ro code  0x0080ad   0x1e  init_small.o [4]
-  .near_func.text  ro code  0x0080cb   0x19  main.o [1]
-  .near_func.text  ro code  0x0080e4   0x18  vreg_util.o [4]
-  .near_func.text  ro code  0x0080fc   0x14  init.o [4]
-  .near_func.text  ro code  0x008110   0x14  __dbg_xxexit.o [3]
-  .near_func.text  ro code  0x008124   0x13  cstartup.o [4]
-  .near_func.text  ro code  0x008137    0xd  main.o [1]
-  .near_func.text  ro code  0x008144    0x9  main.o [1]
-  .near_func.text  ro code  0x00814d    0x5  main.o [1]
-  .near_func.text  ro code  0x008152    0x5  cexit.o [4]
-  .near_func.text  ro code  0x008157    0x3  interrupt.o [4]
-  .near_func.text  ro code  0x00815a    0x3  low_level_init.o [4]
-  .near_func.text  ro code  0x00815d    0x3  exit.o [4]
-  .near_func.text  ro code  0x008160    0x3  unhandled_exception.o [4]
-  .near_func.text  ro code  0x008163    0x1  __dbg_break.o [3]
-                          - 0x008164   0xe4
+"P3-P5":                               0xe9
+  .near_func.text  ro code  0x008080   0x26  main.o [1]
+  .iar.init_table  const    0x0080a6    0x8  - Linker created -
+  .near_func.text  ro code  0x0080ae   0x1e  init_small.o [4]
+  .near_func.text  ro code  0x0080cc   0x19  main.o [1]
+  .near_func.text  ro code  0x0080e5   0x18  vreg_util.o [4]
+  .near_func.text  ro code  0x0080fd   0x14  init.o [4]
+  .near_func.text  ro code  0x008111   0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x008125   0x13  cstartup.o [4]
+  .near_func.text  ro code  0x008138   0x11  main.o [1]
+  .near_func.text  ro code  0x008149    0x9  main.o [1]
+  .near_func.text  ro code  0x008152    0x5  main.o [1]
+  .near_func.text  ro code  0x008157    0x5  cexit.o [4]
+  .near_func.text  ro code  0x00815c    0x3  interrupt.o [4]
+  .near_func.text  ro code  0x00815f    0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x008162    0x3  exit.o [4]
+  .near_func.text  ro code  0x008165    0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x008168    0x1  __dbg_break.o [3]
+                          - 0x008169   0xe9
 
 
 *******************************************************************************
@@ -177,8 +178,8 @@ Absolute sections, part 5 of 5:         0x3
           Address   Size
           -------   ----
 Zero (__iar_zero_init2)
-    1 destination range, total size 0x1:
-          0x00000c   0x1
+    1 destination range, total size 0x11:
+          0x00000c  0x11
 
 
 
@@ -190,9 +191,9 @@ Zero (__iar_zero_init2)
                                                        (abs)
     ------                 -------  -------  -------  -------
 C:\Users\Minh Thang\Desktop\STM8_Projects\Timer\Debug\Obj: [1]
-    main.o                      89                 1       10
+    main.o                      94                17       10
     ---------------------------------------------------------
-    Total:                      89                 1       10
+    Total:                      94                17       10
 
 command line: [2]
     ---------------------------------------------------------
@@ -220,7 +221,7 @@ dlstm8smn.a: [4]
 
     Linker created                        8      256
 -------------------------------------------------------------
-    Grand Total:               220      136      269       10
+    Grand Total:               225      136      285       10
 
 
 *******************************************************************************
@@ -229,8 +230,8 @@ dlstm8smn.a: [4]
 
 Entry                    Address  Size  Type      Object
 -----                    -------  ----  ----      ------
-.iar.init_table$$Base   0x0080a5         --   Gb  - Linker created -
-.iar.init_table$$Limit  0x0080ad         --   Gb  - Linker created -
+.iar.init_table$$Base   0x0080a6         --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0080ae         --   Gb  - Linker created -
 ?b0                     0x000000        Data  Gb  vregs.o [4]
 ?b1                     0x000001        Data  Gb  vregs.o [4]
 ?b10                    0x00000a        Data  Gb  vregs.o [4]
@@ -249,7 +250,7 @@ Entry                    Address  Size  Type      Object
 ?l0                     0x000000        Data  Gb  vregs.o [4]
 ?l1                     0x000004        Data  Gb  vregs.o [4]
 ?l2                     0x000008        Data  Gb  vregs.o [4]
-?push_w4                0x0080e4        Code  Gb  vreg_util.o [4]
+?push_w4                0x0080e5        Code  Gb  vreg_util.o [4]
 ?w0                     0x000000        Data  Gb  vregs.o [4]
 ?w1                     0x000002        Data  Gb  vregs.o [4]
 ?w2                     0x000004        Data  Gb  vregs.o [4]
@@ -260,8 +261,8 @@ CSTACK$$Base            0x000700         --   Gb  - Linker created -
 CSTACK$$Limit           0x000800         --   Gb  - Linker created -
 INTVEC$$Base            0x008000         --   Gb  - Linker created -
 INTVEC$$Limit           0x008080         --   Gb  - Linker created -
-Region$$Table$$Base     0x0080a5         --   Gb  - Linker created -
-Region$$Table$$Limit    0x0080ad         --   Gb  - Linker created -
+Region$$Table$$Base     0x0080a6         --   Gb  - Linker created -
+Region$$Table$$Limit    0x0080ae         --   Gb  - Linker created -
 TIM2_ARRH               0x00530d   0x1  Data  Gb  main.o [1]
 TIM2_ARRL               0x00530e   0x1  Data  Gb  main.o [1]
 _A_CLK_CKDIVR           0x0050c6   0x1  Data  Gb  main.o [1]
@@ -272,24 +273,25 @@ _A_TIM2_CR1             0x005300   0x1  Data  Gb  main.o [1]
 _A_TIM2_IER             0x005301   0x1  Data  Gb  main.o [1]
 _A_TIM2_PSCR            0x00530c   0x1  Data  Gb  main.o [1]
 _A_TIM2_SR1             0x005302   0x1  Data  Gb  main.o [1]
-__DebugBreak            0x008163   0x1  Code  Gb  __dbg_break.o [3]
-__exit                  0x008110  0x14  Code  Gb  __dbg_xxexit.o [3]
-__iar_data_init2        0x0080fc  0x14  Code  Gb  init.o [4]
-__iar_program_start     0x008124        Code  Gb  cstartup.o [4]
+__DebugBreak            0x008168   0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x008111  0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x0080fd  0x14  Code  Gb  init.o [4]
+__iar_program_start     0x008125        Code  Gb  cstartup.o [4]
 __iar_unhandled_exception
-                        0x008160        Code  Gb  unhandled_exception.o [4]
-__iar_zero_init2        0x0080ad        Code  Gb  init_small.o [4]
+                        0x008165        Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x0080ae        Code  Gb  init_small.o [4]
 __intvec                0x008000        Data  Gb  interrupt.o [4]
-__low_level_init        0x00815a   0x3  Code  Gb  low_level_init.o [4]
-_exit                   0x008152        Code  Gb  cexit.o [4]
+__low_level_init        0x00815f   0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x008157        Code  Gb  cexit.o [4]
 _interrupt_15           0x008080        Code  Gb  main.o [1]
-clock_init              0x00814d   0x5  Code  Gb  main.o [1]
-exit                    0x00815d   0x3  Code  Gb  exit.o [4]
-gpio_init               0x008144   0x9  Code  Gb  main.o [1]
-main                    0x008137   0xd  Code  Gb  main.o [1]
-tim2_handle             0x008080  0x25  Code  Gb  main.o [1]
-tim2_handle::count      0x00000c   0x1  Data  Lc  main.o [1]
-timer_init              0x0080cb  0x19  Code  Gb  main.o [1]
+clock_init              0x008152   0x5  Code  Gb  main.o [1]
+dosang                  0x00000c  0x10  Data  Gb  main.o [1]
+exit                    0x008162   0x3  Code  Gb  exit.o [4]
+gpio_init               0x008149   0x9  Code  Gb  main.o [1]
+main                    0x008138  0x11  Code  Gb  main.o [1]
+tim2_handle             0x008080  0x26  Code  Gb  main.o [1]
+tim2_handle::count      0x00001c   0x1  Data  Lc  main.o [1]
+timer_init              0x0080cc  0x19  Code  Gb  main.o [1]
 
 
 [1] = C:\Users\Minh Thang\Desktop\STM8_Projects\Timer\Debug\Obj
@@ -297,9 +299,9 @@ timer_init              0x0080cb  0x19  Code  Gb  main.o [1]
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a
 
-  220 bytes of readonly  code memory
+  225 bytes of readonly  code memory
   136 bytes of readonly  data memory
-  269 bytes of readwrite data memory (+ 10 absolute)
+  285 bytes of readwrite data memory (+ 10 absolute)
 
 Errors: none
 Warnings: none
